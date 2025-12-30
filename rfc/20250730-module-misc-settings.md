@@ -132,7 +132,7 @@ syntax.
 
 Authors of broadly-shared modules might prefer to delay adopting the new syntax
 until all currently-supported OpenTofu minor release series support it, so that
-anyone trying to use the module with older versions of OpenTofu will recieve
+anyone trying to use the module with older versions of OpenTofu will receive
 an error message about an incorrect OpenTofu version, rather than a generic
 syntax error about the unsupported `language` block.
 

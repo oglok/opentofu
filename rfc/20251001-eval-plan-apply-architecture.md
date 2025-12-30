@@ -578,7 +578,7 @@ their treatment differs a lot between phases:
   "planned new state": a partial prediction of what the object should look like
   after changes have been applied, decided by the provider itself, with
   unknown values in any location where the provider cannot predict a result
-  until after the side-effects have occured.
+  until after the side-effects have occurred.
 - During the applying phase, the value representing a resource instance is its
   "final new state": the value that the provider returned after making the
   actual changes to the remote system, which is required to be fully known.

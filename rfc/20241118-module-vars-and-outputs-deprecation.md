@@ -86,7 +86,7 @@ deprecation warning as specified by module author:
 #### Silencing deprecation warnings for dependencies
 
 If the module is not controlled by the configuration author, it makes sense to optionally ignore deprecation warnings raised in such
-a module. I will be refering to local and non-local modules, which contain module calls with deprecated variables or outputs. By local
+a module. I will be referring to local and non-local modules, which contain module calls with deprecated variables or outputs. By local
 modules, I mean modules fetched from local filesystem and for non-local modules, it means they are fetched from remote systems. This
 separation helps with defining what module configuration users control. For example, module calls with deprecation warnings in local
 modules (even non-root ones) could be fixed by a configuration author, thus shouldn't be ignored.
